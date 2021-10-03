@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.top {
+    background-color: #ffb344;
+    padding: 10px 20px;
+    /* margin-bottom: 50px; */
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top .left {
+    display: flex;
+    justify-content: flex-start;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top .right {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    /* padding: auto; */
 }
 
-.App-link {
-  color: #61dafb;
+main .joininfo {
+    /* display: flex;
+    align-items: center; */
+    /* position: absolute; */
+    /* top:50%; */
+    /* transform: translate(0, -50%); */
+    text-align: center;
+    /* width: 50px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .main .link-join{
+    display: flex;
+    justify-content: 
+} */
+
+.icon {
+    margin: 0 10px;
+}
+
+.on {
+    color: green;
+}
+
+.off {
+    color: red;
+}
+
+.meet-feature {
+    background-color: #ffb344;
+    margin: 0 10px;
+    border-radius: 30px;
+}
+
+.end-call {
+    color: red;
+}
+
+.meet {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.bottom-bar{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+}
+
+.meet-screen{
+    /* height: 500px; */
 }
