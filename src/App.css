@@ -1,7 +1,14 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+}
 .top {
     background-color: #ffb344;
     padding: 10px 20px;
     /* margin-bottom: 50px; */
+    /* margin-bottom: auto; */
     font-size: 28px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +29,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 91vh;
+    /* height: 91vh; */
+    margin-top: auto;
+    margin-bottom: auto;
     /* padding: auto; */
 }
 
@@ -68,18 +77,24 @@ main .joininfo {
     flex-direction: column;
     flex: 1;
     height: 100vh;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
-.bottom-bar{
+/* .meet-screen{
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+.bottom-bar {
     margin-top: auto;
     display: flex;
     justify-content: center;
     height: 40px;
-    background-color: white;
+    background-color: aquamarine;
     padding: 10px;
 }
 
-.meet-screen{
+.meet-screen {
     /* height: 500px; */
 }

@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function End(){
     return (
-        <div className="end-call">
+        <div className="end-call-page">
             <h2>You left the meeting</h2>
-            <button>Return to Home Screen</button>
+            <Link to="/">
+                <button>Return to Home Screen</button>
+            </Link>
             <button>Submit feedback</button>
             <div className="safe-meet">
                 <h4>Your Meeting is Safe</h4>
@@ -12,5 +15,5 @@ export default function End(){
                 <a href="">Learn more</a>
             </div>
         </div>
-    )
+    );
 }
