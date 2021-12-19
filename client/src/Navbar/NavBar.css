@@ -1,0 +1,26 @@
+.heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    color: pink;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tagline {
+    padding-left: 40px;
+    line-height: 0.2;
+    color: white;
+    font-size: 15px;
+}
+
+.date-time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+}

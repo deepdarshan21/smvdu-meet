@@ -5,6 +5,7 @@ import {connect} from "react-redux";
 import { setIsRoomHost } from '../store/actions';
 import JoinRoomPageTitle from './JoinRoomPageTitle';
 import JoinRoomContent from './JoinRoomContent';
+import NavBar from '../Navbar/NavBar';
 
 const JoinRoomPage = (props) => {
 
@@ -22,6 +23,7 @@ const JoinRoomPage = (props) => {
 
     return (
         <div className='join_room_page_container'>
+            <NavBar />
             <div className='join_room_page_panel' >
                 <JoinRoomPageTitle isRoomHost={isRoomHost}/>
                 <JoinRoomContent />
