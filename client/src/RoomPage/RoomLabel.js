@@ -18,7 +18,7 @@ const RoomLabel = ({ roomId }) => {
                         setTimeout(() => {
                             setCopied(false);
                             // setDate(dateTime()[1]);
-                        }, 5000);
+                        }, 2000);
                     }}
                 >
                     <span> {copied ? "Copied" : "Copy"}</span>

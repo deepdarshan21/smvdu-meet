@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 import ConnectingButton from "./ConnectingButton";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const ConnectingButtons = () => {
-
     let navigate = useNavigate();
 
     const pushToJoinRoomPage = () => {
@@ -15,11 +14,20 @@ const ConnectingButtons = () => {
     };
 
     return (
-        <div className='connecting_buttons_container'>
-            <ConnectingButton buttonText="Join a Meeting" onClickHandler={pushToJoinRoomPage}/>
-            <ConnectingButton createRoomButton buttonText="Host a Meeting" onClickHandler={pushToJoinRoomPageAsHost}/>
+        <div className="connecting_buttons_container">
+            <ConnectingButton
+                className="create_room_button"
+                createRoomButton
+                buttonText="Host a Meeting"
+                onClickHandler={pushToJoinRoomPageAsHost}
+            />
+            <ConnectingButton
+                className="join_room_button"
+                buttonText="Join a Meeting"
+                onClickHandler={pushToJoinRoomPage}
+            />
         </div>
-    )
-}
+    );
+};
 
-export default ConnectingButtons
+export default ConnectingButtons;

@@ -1,32 +1,36 @@
 .join_room_page_container {
-    background-image: url("../resources/images/background.jpg");
+    background-color: #0052c91a;
     width: 100%;
     height: 100vh;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: relative; */
 }
 
 .join_room_page_panel {
-    width: 600px;
-    height: 400px;
-    background-color: black;
+    width: 100%;
+    height: 350px;
+    /* background-color: black;
     opacity: 0.7;
     border: 1px solid grey;
-    filter: drop-shadow(0 0 0.2rem grey);
+    filter: drop-shadow(0 0 0.2rem grey); */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
+div.left-grid{
+    font-family: sans-serif;
+}
+
 .join_room_title {
-    color: white;
-    font-size: 24px;
+    color: black;
+    font-size: 36px;
     font-weight: 700;
-    margin-left: 35px;
-    margin-top: 80px;
+    /* margin-left: 35px;
+    margin-top: 80px; */
 }
 
 .join_room_inputs_container {
@@ -79,14 +83,14 @@
     }
 }
 
-.checkbox_container {
+/* .checkbox_container {
     display: flex;
     margin-left: 35px;
     margin-top: 5px;
     align-items: center;
-}
+} */
 
-.checkbox_connection {
+/* .checkbox_connection {
     width: 25px;
     height: 25px;
     background: #2d8cff;
@@ -108,7 +112,7 @@
 .checkbox_image {
     max-width: 100%;
     max-height: 100%;
-}
+} */
 
 .join_room_buttons_container {
     display: flex;

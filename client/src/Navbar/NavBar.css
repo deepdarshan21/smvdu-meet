@@ -1,11 +1,11 @@
 .heading {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10px;
 }
 
 .title {
-    color: pink;
+    color: black;
     font-size: 40px;
     font-weight: bold;
 }
@@ -13,14 +13,16 @@
 .tagline {
     padding-left: 40px;
     line-height: 0.2;
-    color: white;
+    color: #743433;
+    height: 15px;
     font-size: 15px;
+    font-style: italic;
 }
 
 .date-time {
     position: absolute;
     top: 0;
-    right: 0;
-    font-size: 40px;
-    font-weight: bold;
+    right: 10px;
+    font-size: 36px;
+    /* font-weight: bold; */
 }
