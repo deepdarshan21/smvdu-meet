@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
+
 const RoomLabel = ({ roomId }) => {
     const [copied, setCopied] = useState(false);
     // setInterval(() => {
@@ -12,13 +14,14 @@ const RoomLabel = ({ roomId }) => {
                 ID : {roomId}
                 <CopyToClipboard
                     // options={{ debug: props.debug, message: "" }}
+                    className="copy-clipboard"
                     text={roomId}
                     onCopy={() => {
                         setCopied(true);
                         setTimeout(() => {
                             setCopied(false);
                             // setDate(dateTime()[1]);
-                        }, 2000);
+                        }, 1500);
                     }}
                 >
                     <span> {copied ? "Copied" : "Copy"}</span>
