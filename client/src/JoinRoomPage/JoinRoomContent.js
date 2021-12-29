@@ -19,8 +19,14 @@ const JoinRoomContent = (props) => {
 
     const handleJoinRoom = async () => {
 
-        setIdentityAction(nameValue);
-        
+        if(isRoomHost)
+        {
+            setIdentityAction(nameValue + " (Host)");
+        }
+        else {
+            setIdentityAction(nameValue);
+        }
+
         if(isRoomHost){
             createRoom();
         }
