@@ -6,8 +6,7 @@ import Attendence from "./Attendence";
 import SwitchToScreenShareButton from "./SwitchToScreenShareButton";
 import store from "../../store/store";
 import { withTheme } from "@emotion/react";
-// import { pink } from
- "@mui/material/colors";
+// import { pink } from"@mui/material/colors";
 
 
 const VideoButtons = (props) => {
@@ -18,7 +17,7 @@ const VideoButtons = (props) => {
             <CameraButton />
             <LeaveRoomButton />
             <SwitchToScreenShareButton />
-            {isRoomHost && <Attendence sx={{ color: pink[500] }} />}
+            {isRoomHost && <Attendence />}
         </div>
     );
 };

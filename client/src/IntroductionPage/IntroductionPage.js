@@ -35,7 +35,7 @@ const IntroductionPage = ({ setIsRoomHostAction, setConnectOnlyWithAudio }) => {
                     <img src={imageChild} className="image" alt="child study" />
                 </Grid>
             </Grid>
-            <div className="footer">Made with ❤️ by teem @kdk</div>
+            <div className="footer">Made with ❤️ by team @kdk</div>
             {/* <div className="introduction_page_panel">
                 <ConnectingButtons />
             </div> */}
