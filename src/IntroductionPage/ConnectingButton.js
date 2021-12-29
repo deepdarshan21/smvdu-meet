@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Stack } from "@mui/material/";
 
 const ConnectingButton = ({ createRoomButton = false, buttonText, onClickHandler }) => {
-    const buttonClass = createRoomButton ? "create_room_button" : "join_room_button";
+    // const buttonClass = createRoomButton ? "create_room_button" : "join_room_button";
     const buttonVarient = createRoomButton ? "contained" : "outlined";
     
     return (
