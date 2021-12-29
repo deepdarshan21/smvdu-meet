@@ -1,5 +1,6 @@
 const express = require("express");
 const http = require("http");
+require("dotenv").config();
 const { v4:uuidv4 } = require("uuid");
 const cors = require("cors");
 const twilio  = require("twilio");
@@ -35,6 +36,26 @@ app.get("/api/room-exists/:roomId" , (req,res) => {
     else {
         //room doesnot exist
         res.send({roomExists : false});
+    }
+});
+
+app.get("/api/get-turn-credentials" , (req,res) => {
+    const accountSid = "AC5272b4d72c9bbd433c2a705dd5f4d872";
+    const authToken = process.env.TURN_SERVER_AUTH_TOKEN;
+
+    const client = twilio(accountSid , authToken);
+
+    let responseToken = null;
+
+    try {
+        client.tokens.create().then(token => {
+            responseToken = token;
+            res.send({token});
+        })
+    } catch (err) {
+        console.log("Error occured when fetching turn server credentials");
+        console.log(err);
+        res.send({token : null});
     }
 });
 
