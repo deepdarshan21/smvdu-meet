@@ -4,7 +4,7 @@ import * as webRTCHandler from "./webRTCHandler"
 import store from "../store/store";
 
 const SERVER = "http://localhost:5002";
-// const SERVER = "https://afternoon-falls-52104.herokuapp.com/";
+//const SERVER = "https://afternoon-falls-52104.herokuapp.com/";
 
 let socket = null;
 
