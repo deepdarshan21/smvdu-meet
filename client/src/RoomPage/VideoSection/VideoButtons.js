@@ -5,6 +5,10 @@ import MicButton from "./MicButton";
 import Attendence from "./Attendence";
 import SwitchToScreenShareButton from "./SwitchToScreenShareButton";
 import store from "../../store/store";
+import { withTheme } from "@emotion/react";
+// import { pink } from
+ "@mui/material/colors";
+
 
 const VideoButtons = (props) => {
     const isRoomHost = store.getState().isRoomHost;
@@ -14,7 +18,7 @@ const VideoButtons = (props) => {
             <CameraButton />
             <LeaveRoomButton />
             <SwitchToScreenShareButton />
-            {isRoomHost && <Attendence />}
+            {isRoomHost && <Attendence sx={{ color: pink[500] }} />}
         </div>
     );
 };
