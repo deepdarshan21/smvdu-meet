@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import Time from "./time";
-import { Grid, Box, AppBar, Toolbar, Typography } from "@mui/material";
+import { Box, AppBar, Toolbar, Typography } from "@mui/material";
 import VideocamRoundedIcon from "@mui/icons-material/VideocamRounded";
 
 const NavBar = () => {

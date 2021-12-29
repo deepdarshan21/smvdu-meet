@@ -1,4 +1,4 @@
-import React , {useState , useEffect} from 'react';
+import React , {useState } from 'react';
 import sendMessageButton from "../../resources/images/sendMessageButton.svg";
 import * as webRTCHandler from "../../utils/webRTCHandler";
 import { questionCheck } from './questionCheck';
@@ -45,6 +45,7 @@ const NewMessage = () => {
                 className='new_message_button'
                 src={sendMessageButton}
                 onClick = {sendMessage}
+                alt="message"
             />
         </div>
     )

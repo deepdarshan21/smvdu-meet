@@ -7,7 +7,7 @@ import { setIsRoomHost } from '../store/actions';
 import JoinRoomPageTitle from './JoinRoomPageTitle';
 import JoinRoomContent from './JoinRoomContent';
 import NavBar from '../Navbar/NavBar';
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 
 const JoinRoomPage = (props) => {
 

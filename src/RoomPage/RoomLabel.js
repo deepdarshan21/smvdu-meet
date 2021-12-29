@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
-import ContentCopyIcon from "@mui/icons-material/ContentCopy";
+// import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 
 const RoomLabel = ({ roomId }) => {
     const [copied, setCopied] = useState(false);

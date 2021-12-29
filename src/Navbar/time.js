@@ -4,7 +4,7 @@ import React, { useState } from "react";
 function Time() {
     function dateTime() {
         let date = new Date();
-        let hour, min, day, timeType;
+        let hour, min, timeType;
         hour = date.getHours();
         if (hour < 12) {
             timeType = "AM";

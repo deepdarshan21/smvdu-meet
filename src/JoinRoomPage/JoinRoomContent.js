@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import JoinRoomInputs from './JoinRoomInputs';
 import {connect} from "react-redux";
-import OnlyWithAudioCheckbox from "./OnlyWithAudioCheckbox";
+// import OnlyWithAudioCheckbox from "./OnlyWithAudioCheckbox";
 import { setConnectOnlyWithAudio, setIdentity, setRoomId } from '../store/actions';
 import ErrorMessage from './ErrorMessage';
 import JoinRoomButtons from './JoinRoomButtons';
@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 const JoinRoomContent = (props) => {
 
-    const {isRoomHost , setConnectOnlyWithAudio , connectOnlyWithAudio , setIdentityAction , setRoomIdAction} = props;
+    const {isRoomHost , setIdentityAction , setRoomIdAction} = props;
     const [roomIdValue , setRoomIdValue] = useState("");
     const [nameValue , setNameValue] = useState("");
     const [errorMessage , setErrorMessage] = useState(null);
