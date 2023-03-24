@@ -48,8 +48,8 @@ npm run start & cd server && npm run start
 👤 **Kunal Kanotra**
 
 -   Website: https://github.com/kunal351411
--   Github: [@deepdarshan21](https://github.com/kunal351411)
--   LinkedIn: [@deepdarshan21](https://www.linkedin.com/in/kunal-kanotra/)
+-   Github: [@Kunal Kanotra](https://github.com/kunal351411)
+-   LinkedIn: [@Kunal Kanotra](https://www.linkedin.com/in/kunal-kanotra/)
 
 ## Show your support
 
