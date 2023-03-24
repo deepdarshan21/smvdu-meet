@@ -22,18 +22,39 @@ npm i & cd server && npm i
 npm run start & cd server && npm run start
 ```
 
+## Screenshots
+
+### Landing Page
+
+![Landing Page](./demo/Landing%20Page.png)
+
+### Host Meeting
+
+![Host Meeting](./demo/Host%20Meeting.png)
+
+### Meeting Page
+
+![Meeting Page](./demo/Meeting%20Page.png)
+
 ## Author
 
 👤 **Deepdarshan**
 
-* Website: https://github.com/deepdarshan21
-* Twitter: [@deepdarshan21](https://twitter.com/deepdarshan21)
-* Github: [@deepdarshan21](https://github.com/deepdarshan21)
-* LinkedIn: [@deepdarshan21](https://linkedin.com/in/deepdarshan21)
+-   Website: https://github.com/deepdarshan21
+-   Twitter: [@deepdarshan21](https://twitter.com/deepdarshan21)
+-   Github: [@deepdarshan21](https://github.com/deepdarshan21)
+-   LinkedIn: [@deepdarshan21](https://linkedin.com/in/deepdarshan21)
+
+👤 **Kunal Kanotra**
+
+-   Website: https://github.com/kunal351411
+-   Github: [@deepdarshan21](https://github.com/kunal351411)
+-   LinkedIn: [@deepdarshan21](https://www.linkedin.com/in/kunal-kanotra/)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
