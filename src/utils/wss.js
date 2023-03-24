@@ -3,8 +3,8 @@ import { setParticipants, setRoomId } from "../store/actions";
 import * as webRTCHandler from "./webRTCHandler"
 import store from "../store/store";
 
-// const SERVER = "http://localhost:5002";
-const SERVER = "https://sheltered-plateau-62204.herokuapp.com";
+const SERVER = "http://localhost:5002";
+// const SERVER = "https://sheltered-plateau-62204.herokuapp.com";
 
 let socket = null;
 

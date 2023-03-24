@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const serverApi = "http://localhost:5002/api";
-const serverApi = "https://sheltered-plateau-62204.herokuapp.com/api";
+const serverApi = "http://localhost:5002/api";
+// const serverApi = "https://sheltered-plateau-62204.herokuapp.com/api";
 
 export const getRoomExists = async (roomId) => {
 
